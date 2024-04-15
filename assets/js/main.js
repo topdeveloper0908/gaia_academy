@@ -16,6 +16,6 @@ function myFunction() {
     }
 }
 
-$( document ).ready(function() {
+document.addEventListener('DOMContentLoaded', function() {
     myFunction();
 });
